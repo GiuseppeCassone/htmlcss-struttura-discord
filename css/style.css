@@ -18,6 +18,11 @@ header{
 .container{
     display: flex;
     width: 1000px;
+
+    font-family: sans-serif;
+}
+
+header .container{
     background-color: #DAA520;
 }
 
@@ -59,15 +64,17 @@ header .container div:last-child{
 /* inizio main */
 
 main section{
-    width: 100%;
-   
-}
-
-main section:first-child{
     display: flex;
     justify-content: center;
 
+    width: 100%;
     padding: 30px 0px;
+   
+}
+
+/* inizio prima section */
+
+main section:first-child{ 
     border-bottom: 2px solid #77a4f3;
     background-color: #00008B;
 }
@@ -77,6 +84,67 @@ main section:first-child{
     height: 250px;
 
     background-color: #EE82EE;  
+}
+
+/* fine prima section */
+
+/* inizio section bg-white */
+
+.bg-white{
+    background-color: white;
+}
+
+main .container{
+    height: 350px;
+}
+
+main .container .lightblue{
+    width: 600px;
+    background-color: #1E90FF;
+
+}
+
+main .container .lightpink{
+    width: 400px;
+    background-color: #FFC0CB;
+}
+
+/* fine section bg-white */
+
+/* inizio section bg-grey */
+
+main .bg-grey{
+    background-color: #D3D3D3;
+}
+
+.green{
+    width: 1000px;
+    height: 800px;
+    background-color: #228B22;
+}
+
+/* fine section bg-grey */
+
+/* inizio section bg-black */
+
+
+/* fine section bg-black */
+main .bg-black{
+    padding-top: 10px;
+    background-color: #23272A;
+}
+
+
+main .bg-black .container .pink{
+    flex-grow: 2;
+    background-color: #F08080;
+}
+
+main .bg-black .container .aqua{
+    border: 1px dashed white;
+    flex-grow: 1;
+    background-color: #20B2AA;
+
 }
 
 /* fine main */
