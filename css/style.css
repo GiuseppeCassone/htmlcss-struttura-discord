@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* regola di reset */
+
+/* inizio header */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #ADD8E6;
+}
+
+.container{
+    display: flex;
+    width: 1000px;
+    background-color: #DAA520;
+}
+
+header div{
+    border: 1px black dashed;
+}
+
+header .container div:first-child, header .container div:last-child{
+    flex-grow: 1;
+    padding: 5px;
+}
+
+header .container div:nth-child(2){
+    flex-grow: 2;
+    padding: 5px;
+    text-align: center;
+}
+
+header .container div:nth-child(2) ul{
+    list-style-type: none;
+}
+
+ul li{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+header .container div:last-child{
+    text-align: right;
+}
+
+/* fine header */
