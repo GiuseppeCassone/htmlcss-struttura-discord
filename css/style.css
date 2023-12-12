@@ -21,7 +21,7 @@ header{
     background-color: #DAA520;
 }
 
-header div{
+header div, main section div{
     border: 1px black dashed;
 }
 
@@ -55,3 +55,29 @@ header .container div:last-child{
 }
 
 /* fine header */
+
+/* inizio main */
+
+main section{
+    width: 100%;
+   
+}
+
+main section:first-child{
+    display: flex;
+    justify-content: center;
+
+    padding: 30px 0px;
+    border-bottom: 2px solid #77a4f3;
+    background-color: #00008B;
+}
+
+.purple{
+    width: 650px;
+    height: 250px;
+
+    background-color: #EE82EE;  
+}
+
+/* fine main */
+
