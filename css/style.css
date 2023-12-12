@@ -26,7 +26,7 @@ header .container{
     background-color: #DAA520;
 }
 
-header div, main section div{
+header div, main section div, footer .container div{
     border: 1px black dashed;
 }
 
@@ -131,6 +131,8 @@ main .bg-grey{
 /* fine section bg-black */
 main .bg-black{
     padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid lightgray;
     background-color: #23272A;
 }
 
@@ -148,4 +150,31 @@ main .bg-black .container .aqua{
 }
 
 /* fine main */
+
+/* inizio footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+
+    background-color: #23272A;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+
+    background-color: #7FFFD4;
+}
+
+footer .container div{
+    padding: 5px;
+
+    background-color: #F8AAB9;
+}
+/* fine footer */
+
 
